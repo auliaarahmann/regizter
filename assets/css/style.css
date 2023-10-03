@@ -1,0 +1,725 @@
+body {
+  color: #0e0e0e;
+  font-size: 1rem;
+}
+h1 {
+    font-size: 5em;
+}
+a  {
+    color: rgb(136, 18, 42);
+}
+a :active {
+    color: rgb(17, 16, 16);
+}
+.bi{
+    color: crimson;
+}
+
+.navbar{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    /* background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, -1)); */
+    z-index: 2;
+}
+.navbar-brand img {
+    max-width: 40%;
+    height: auto;
+
+}
+.carousel {
+    margin-top: 80px;
+
+}
+.count-down {
+    margin-top: -30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255, 0.9);
+    /* height: auto; */
+    border-radius: 15px;
+    /* border: 1px solid rgb(180, 180, 180); */
+    z-index: 1;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.7);
+    /* text-align: center !important; */
+
+}
+
+.count-down h1 {
+    margin-right: 7px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(107, 0, 107);
+}
+
+.count-down span {
+    color: rgb(107, 0, 107);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+/* Cards */
+.card-group {
+    margin-top: 40px;    
+}
+
+.card-red {
+    background-color: rgb(238, 4, 43);
+    color: #ffffff;
+    /* min-height: auto; */
+    /* margin-bottom: 200px; */
+
+}
+
+.card-title {
+    margin-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: -5px;
+
+}
+
+.card-text {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-bottom: 50px;
+
+}
+
+.card img {
+    align-self: center;
+    margin-top: -25px;
+    /* border: 1px solid; */
+    border-radius: 15px;
+    height: auto;
+    max-width: 40%;
+    padding: 15px;
+    background: #ffffff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
+}
+.card-left{
+    border-radius: 10px;
+    /* margin-right: 1px; */
+    background-image: linear-gradient(to bottom right, rgb(283, 4, 43), rgb(165, 6, 157));
+}
+.card-center{
+    margin-top: 0;
+    /* margin-right: 1px; */
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, rgb(165, 6, 62), rgb(165, 6, 157));
+    /* background-image: linear-gradient(180deg, rgb(165,4,43) 0%, rgba(165, 6, 157) 70%); */
+}
+.card-right {
+    margin-top: 0;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom left, rgb(238, 4, 43), rgb(165, 6, 157));
+}
+
+.row-footer{
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    padding: 17px;
+    max-height: 90px;
+    background-image: linear-gradient(to bottom right, rgb(255, 196, 0), rgb(143, 0, 143));
+}
+.img-sponsor{
+    width: 70%;
+    height: auto;
+}
+.row-footer img{
+    padding: 3px;
+    max-width: 80px;
+    height: 50px;
+    /* border: 1px solid saddlebrown; */
+
+}
+/* .footer-left {
+
+    border: 1px solid #990404;
+}
+.footer-right {
+    
+    border: 1px solid #080808;
+} */
+
+.more-info {
+    padding-top: 6px;
+    color: #ffffff;    
+    border-right: 1px solid rgb(165, 165, 165);
+    padding-right: 10px;
+    line-height: 2px;
+    width: fit-content;
+    height: fit-content;
+    /* border: 1px solid blue; */
+
+}
+
+.more-info h3 {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.more-info p {
+    font-size:x-small;
+}
+
+.find-us {    
+    padding-top: 6px;
+    text-align: start;
+    color: #ffffff;
+    margin-left: 7px;
+    font-size: 13px;
+    width: fit-content;
+    /* height: fit-content; */
+    /* border: 1px solid wheat; */
+
+}
+
+.row-red {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(201, 29, 29);
+}
+.row-red h1 {
+    margin-top: 10px;
+}
+.row-yellow {
+    /* margin-top: 70px; */
+    padding-bottom: 30px;
+    background-color: rgb(241, 177, 0);
+    padding-top: 30px;
+}
+
+.row-sponsor {
+    padding-bottom: 70px;
+    background-color: rgb(250, 243, 226);
+    padding-top: 70px;
+}
+
+.row-map {
+    padding-bottom: 30px;
+    background-color: rgb(138, 2, 126);
+    padding-top: 30px;
+}
+.carousel-racepack {
+    margin-top: 15px;
+}
+.btn-rounded {
+    border-radius: 50px;
+    background-color: black;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px 30px;
+}
+
+.btn-rounded:hover {
+    background-color: black;
+    color: rgb(209, 153, 0);
+}
+
+.btn-rounded:active {
+    background-color: black;
+    color: #ffffff;
+}
+    
+
+ 
+  /* RESPONSIVE STYLES FOR TABLET DEVICES ================================================================== */
+  @media (min-width: 768px) {
+  /* @media (min-width: 576px) {   */
+    /* Navbar */
+    .navbar-brand img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    /* Carousel Caption */
+    .carousel-caption h1 {
+      font-size: 60px;
+      margin-top: 8rem;
+      line-height: 5rem;
+    }
+  
+    .carousel-caption p {
+      font-size: 30px;
+    }
+  
+    /* Countdown */
+    .count-down h1 {
+      font-size: 70px;
+    }
+  
+    .count-down span {
+      font-size: 35px;
+      margin-top: 20px;
+      margin-right: 25px;
+    }
+  
+    /* Cards */
+    .card-group {
+        margin-top: 60px;    
+    }
+    .card-red{
+        background-color: rgb(238, 4, 43);
+        color: #ffffff;
+        /* min-height: 500px; */
+    
+    }
+    .card-title{
+        margin-top: 15px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: lighter;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-bottom: -5px;
+    
+    }
+    .card-text {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-weight:bolder;
+        margin-bottom: 50px;
+    
+    }
+    .card img {
+      height: auto;
+      max-width: 40%;
+      margin-top: -35px;
+    }
+    .card-left{
+        border-radius: 20px;
+        /* margin-right: 1px; */
+        background-image: linear-gradient(to bottom right, rgb(283, 4, 43), rgb(165, 6, 157));
+    }
+    .card-center{
+        margin-top: 0;
+        /* margin-right: 1px; */
+        /* background-image: linear-gradient(to bottom, rgb(255, 174, 0), rgb(165, 6, 157)); */
+        background-image: linear-gradient(to bottom, rgb(165, 6, 62), rgb(165, 6, 157));
+    }
+    .card-right {
+        margin-top: 0;
+        border-radius: 20px;
+        background-image: linear-gradient(to bottom left, rgb(238, 4, 43), rgb(165, 6, 157));
+    }
+  
+    /* Footer */
+    .row-footer img {
+      max-width: 150px;
+      height: 40px;
+    }
+  
+    .more-info h3 {
+      font-size: 25px;
+      margin-bottom: 20px;
+    }
+  
+    .more-info p {
+      font-size: 12px;
+    }
+  
+    .find-us {
+      font-size: 20px;
+      margin-left: 15px;
+    }
+  }
+
+
+  /* RESPONSIVE STYLES FOR DESKTOP DEVICES ============================================================*/
+@media (min-width: 992px) {
+    .navbar {
+        /* position: fixed; */
+        top: 0;
+        width: 100%;
+        background-color: transparent; /* Set the background color to transparent initially */
+        z-index: 2;        
+
+      }
+       
+      .navbar.scrolled {
+        position: fixed;
+        background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(18, 16, 16, 0.5));
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4); /* Add a box shadow for a nice effect */
+        
+      }
+    
+    .navbar-brand img {
+        max-width: 100%;
+        height: auto;
+    }
+    .navbar-brand img{
+        margin-top: 25px;
+        width: 120px;
+        height: 80px;
+        text-shadow: 0 5px 5px rgba(0, 0, 0, 0.7);
+    }
+    .carousel{
+        margin-top: -150px;
+    }
+    .carousel-caption{
+        top: 0;
+        /* border: 1px solid gray; */
+        position: absolute;
+        /* background-color: aqua; */
+        
+    }
+    .carousel-caption h1 {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        color: rgb(255, 190, 12);
+        font-size: 100px;
+        text-transform: uppercase;
+        text-align:start;
+        margin-top: 10rem;
+        margin-bottom: -2px;
+        line-height: 5rem;
+        text-shadow: 0 2px 9px rgba(0, 0, 0, 0.6);
+    
+    
+    }
+    .carousel-caption p {
+        font-family:'Courier New', Courier, monospace;
+        font-weight: bolder;
+        color: rgb(255, 255, 254);
+        font-size: 50px;
+        text-transform: uppercase;
+        text-align: start;
+        text-shadow: 0 2px 3px rgba(0, 0, 0, 0.7);
+    }   
+    .btn-oke{
+        width: 300px;
+        padding-bottom: 10px;
+        background-color: crimson;
+        border-radius: 25px;
+        background-image: url(asset/img/Button_Daftar_Sekarang_Red.png);
+        color: aliceblue;
+        font-weight: bolder;
+    }
+    .btn-oke:hover{
+        background-color: rgb(87, 10, 26);
+    }
+    .count-down{
+        margin-top: -70px;
+        padding: 30px;
+        background-color: rgb(255, 255, 255, 0.9);
+        /* height: auto; */
+        border-radius: 15px;
+        border: 1px solid rgb(180, 180, 180);
+        z-index: 1;
+        box-shadow: 0 1px 9px rgba(0, 0, 0, 0.5);
+        /* text-align: center !important; */
+    
+    }
+    .count-down h1{
+        margin-right: 10px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: bolder;
+        font-size: 60px;
+        color: rgb(107, 0, 107);
+    }
+    .count-down span {
+        color: rgb(107, 0, 107);
+        text-transform: uppercase;
+        font-weight:normal;
+        font-size: 30px;
+        margin-top: 25px;
+        margin-right: 30px;
+    }
+    /* Cards */
+    .card-group{
+        margin-top: 100px;
+    }
+    .card-red{
+        background-color: rgb(238, 4, 43);
+        color: #ffffff;
+        min-height: 500px;
+    
+    }
+    .card-title{
+        margin-top: 15px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: lighter;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-bottom: -5px;
+    
+    }
+    .card-text {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 2rem;
+        font-weight:bolder;
+        margin-bottom: 50px;
+    
+    }
+    .card img{
+        align-self: center;
+        margin-top: -70px;
+        /* border: 1px solid; */
+        border-radius: 20px;
+        height: 130px;
+        width: 129px;
+        padding: 25px;
+        background: #ffffff;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
+    }
+    .card-left{
+        border-radius: 40px;
+        /* margin-right: 1px; */
+        background-image: linear-gradient(to bottom right, rgb(283, 4, 43), rgb(165, 6, 157));
+    }
+    .card-center{
+        margin-top: 0;
+        /* margin-right: 1px; */
+        /* background-image: linear-gradient(to bottom, rgb(255, 174, 0), rgb(165, 6, 157)); */
+        background-image: linear-gradient(to bottom, rgb(165, 6, 62), rgb(165, 6, 157));
+    }
+    .card-right {
+        margin-top: 0;
+        border-radius: 40px;
+        background-image: linear-gradient(to bottom left, rgb(238, 4, 43), rgb(165, 6, 157));
+    }
+    .row-red{
+        margin-top: 70px;
+        padding-bottom: 70px;
+        background-color: rgb(201, 29, 29);
+    }
+    .row-yellow {
+        /* margin-top: 70px; */
+        padding-bottom: 70px;
+        background-color: rgb(241, 177, 0);
+        padding-top: 70px;
+    }
+    .row-sponsor{
+        padding-bottom: 70px;
+        background-color: rgb(250, 243, 226);
+        padding-top: 70px;
+    }
+    
+    .row-map{
+        padding-bottom: 70px;
+        background-color: rgb(138, 2, 126);
+        padding-top: 70px;
+    }
+    .carousel-racepack{
+        margin-top: 70px;
+    }
+    .custome-prev{
+        position: absolute;
+        margin-right: 300px;
+    }
+    .custome-next {
+        position: absolute;
+        margin-left: 300px;
+    }
+    
+    /* STYLE FOR PRICING PURPLE */
+    .pricing-purple{
+        width: 300px;
+        height: fit-content;
+        background-color: rgb(192, 2, 167);
+        border-radius: 30px;
+    }
+    .price-tag {
+        position: relative;
+        height: fit-content;
+        font-size: 50px;
+        font-weight: bolder;
+        color: rgb(150, 0, 130);
+        padding: 10px 50px;
+        width: fit-content;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        margin-left: -70px;
+        top: 20px;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+        z-index: 1;
+    }
+    
+    .price-desc{
+        padding-top: 20px;
+        float:right;
+        background-color: rgb(122, 0, 106);
+        width: 100%;
+        height: auto;
+        margin-top: -90px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        color :#ffffff;
+        font-size:x-small;
+        padding: 20px;
+        text-align: end;
+        line-height: 4px;
+    }
+    
+    .price-desc,.purple-right-style{
+        margin-left: 170px;
+    }
+    
+    .price-desc.purple-left-style {
+        text-align: start;
+    }
+    
+    .price-idr-yellow{
+        color: yellow;
+        font-weight: bolder;
+        font-size:large;
+        margin-bottom: 30px;
+    }
+    .price-idr-white {
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+        font-size: large;
+        margin-bottom: 30px;
+    }
+    .price-detail{
+        color: #ffffff;
+        font-size: small;
+    }
+    /* STYLE FOR PRICING PURPLE END*/
+    
+    /* STYLE FOR PRICING RED */
+    .pricing-red {
+        width: 300px;
+        height: fit-content;
+        background-color: rgb(240, 2, 61);
+        border-radius: 30px;
+    }
+    
+    .pricing-red .price-tag {
+        position: relative;
+        height: fit-content;
+        font-size: 50px;
+        font-weight: bolder;
+        color: rgb(240, 2, 61);
+        padding: 10px 50px;
+        width: fit-content;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        margin-left: -70px;
+        top: 20px;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+        z-index: 1;
+    }
+    
+    .pricing-red .price-desc {
+        padding-top: 20px;
+        float: right;
+        background-color: rgb(192, 0, 58);
+        width: 100%;
+        height: auto;
+        margin-top: -90px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        color: #ffffff;
+        font-size: x-small;
+        padding: 20px;
+        text-align: end;
+        line-height: 4px;
+    }
+    
+    .price-tag.red-right-style{
+        margin-left: 170px;
+     
+    }
+    
+    .price-desc.red-left-style{
+        text-align: start;
+    
+    }
+    
+    .pricing-red.price-idr-yellow {
+        color: yellow;
+        font-weight: bolder;
+        font-size: large;
+        margin-bottom: 30px;
+    }
+    
+    .pricing-red.price-idr-white {
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+        font-size: large;
+        margin-bottom: 30px;
+    }
+    
+    .pricing-red.price-detail {
+        color: #ffffff;
+        font-size: small;
+    }
+    /* END STYLE FOR PRICING RED */
+    
+    
+    
+    .btn-rounded{
+        border-radius: 50px;
+        background-color: black;
+        color: #ffffff;
+        font-weight: bold;
+        padding: 5px 30px;
+    }
+    .btn-rounded:hover {
+        background-color: black;
+        color: rgb(209, 153, 0);
+    }
+    .btn-rounded:active {
+        background-color: black;
+        color: #ffffff;
+    }
+    
+    
+    .row-footer{
+        margin-top: 0;
+        padding: 30px;
+        max-height: 200px;
+        background-color: rgb(245, 30, 65);
+        background-image: linear-gradient(to bottom right, rgb(255, 196, 0), rgb(143, 0, 143));
+    }
+    .row-footer img {
+        max-width: 180px;
+        height: auto;
+    }
+    /* .footer-right{
+        border: 1px solid #080808;
+    } */
+    .more-info {
+        padding-top:20px;
+        color: #ffffff;
+        border-right: 2px solid rgb(165, 165, 165);
+        padding-right: 30px;
+        line-height: 5px;
+        width: fit-content;
+        /* border: 1px solid blue; */
+    
+    } 
+    .more-info h3{
+        font-weight:bolder;
+        font-size: larger;
+        margin-bottom: 20px;
+        }
+    .more-info p {
+        font-size: 12px;
+    }
+    .find-us{
+        padding-top: 20px;
+        text-align: start;
+        color: #ffffff;
+        margin-left: 20px;
+        font-size: larger;
+        font-weight: bolder;
+        width: fit-content;
+        /* border: 1px solid wheat; */
+    
+    }
+  
+
+}
